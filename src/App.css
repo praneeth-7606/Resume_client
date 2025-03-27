@@ -14,6 +14,26 @@ body {
   padding: 2rem 0;
 }
 
+
+:root {
+  --bs-primary: #0d6efd;
+  --bs-primary-dark: #0b5ed7;
+}
+
+
+
+.navbar-slim .btn {
+  transition: all 0.3s ease;
+}
+
+.navbar-slim .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
+}
+
+.navbar-slim .btn:active {
+  transform: translateY(0);
+}
 .app-container.fade-in {
   animation: fadeInAnimation 0.8s ease-in-out forwards;
 }
